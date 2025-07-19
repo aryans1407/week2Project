@@ -120,6 +120,7 @@ function draw() {
         fill(255);
         text("GAME OVER", 400, 250);
         noLoop(); // Stop the game
+        fill(0);
     }
 
 class Rectangle {
