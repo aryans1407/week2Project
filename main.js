@@ -118,9 +118,10 @@ function draw() {
         background(255, 0, 0); // Red screen on crash
         textSize(48);
         fill(255);
-        text("GAME OVER", 400, 250);
+        text("GAME OVER", 375, 250);
         noLoop(); // Stop the game
-        fill(0);
+        noStroke();
+        fill(255, 0, 0);
     }
 
 class Rectangle {
